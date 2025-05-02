@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Search;
 
 
 public class DragMouse : MonoBehaviour
@@ -9,6 +10,10 @@ public class DragMouse : MonoBehaviour
     public LayerMask draggable;
     private Rigidbody2D Rb;
     private CheeseCatcher catcher;
+    public Queso queso;
+    public Ratoncillo raton;
+
+    
 
     private void Start()
     {
@@ -34,6 +39,8 @@ public class DragMouse : MonoBehaviour
             if (Rb != null && catcher != null)
             {
                 catcher.StopProcessingQueso(Rb.gameObject);
+                raton.canRotate = true;
+                raton.target = queso.gameObject.transform;
             }
         }
         if (Input.GetMouseButtonUp(0))
