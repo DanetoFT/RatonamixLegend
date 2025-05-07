@@ -5,7 +5,11 @@ using NavMeshPlus.Extensions;
 
 public class Ratoncillo : MonoBehaviour
 {
+    public float tiempoCaida;
+
     public Transform target;
+
+    private Animator animator;
 
     private Transform mouseTransform;
 
@@ -13,47 +17,70 @@ public class Ratoncillo : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    RotateAgentSmoothly rotate;
+    private Vector2 targetDirection;
 
     [SerializeField] GameObject ratoncet;
 
     public float rotationSpeed;
-
     public bool mouseMove;
-    public NavMeshAgent navMeshMouse;
-
     public bool canRotate;
+    public float speed;
+
+    public Vector2 directionToCheese;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        animator = GetComponent<Animator>();
         canRotate = false;
         mouseMove = false;
         canRotate = true;
         rb = GetComponent<Rigidbody2D>();
-        agent = GetComponent<NavMeshAgent>();
-        agent.updateRotation = false;
-        agent.updateUpAxis = false;
-        mouseTransform = ratoncet.transform;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //mouseTransform = ratoncet.transform;
     }
 
     private void FixedUpdate()
     {
         if (canRotate)
         {
-            Rotation();
+            UpdateTargetRotation();
+            RotateTowardsTarget();
+        }
+
+        if (mouseMove)
+        {
+            Movement();
         }
     }
 
-    void Rotation()
+    void Movement()
     {
-        agent.SetDestination(target.position);
+        Vector2 ratonToCheeseVector = target.position - transform.position;
+        directionToCheese = ratonToCheeseVector.normalized;
+
+        transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+    }
+
+    void UpdateTargetRotation()
+    {
+        targetDirection = directionToCheese;
+    }
+
+    void RotateTowardsTarget()
+    {
+        if(targetDirection == Vector2.zero)
+        {
+            return;
+        }
+
+        Quaternion targetRotation = Quaternion.LookRotation(transform.forward, targetDirection);
+        Quaternion rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+        rb.SetRotation(rotation);
+    }
+
+    /*void Rotation()
+    {
+
 
         Vector3 rotate = (agent.steeringTarget - transform.position).normalized;
 
@@ -61,7 +88,22 @@ public class Ratoncillo : MonoBehaviour
         Quaternion rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
         rb.MoveRotation(rotation);
 
-        //float angle = Mathf.Atan2(rotate.y, rotate.x) * Mathf.Rad2Deg;
-        //mouseTransform.eulerAngles = new Vector3(0, 0, angle -90);
+        float angle = Mathf.Atan2(rotate.y, rotate.x) * Mathf.Rad2Deg;
+        mouseTransform.eulerAngles = new Vector3(0, 0, angle -90);
+    }*/
+
+    void CancelMove()
+    {
+        mouseMove = false;
+        canRotate = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Fall")
+        {
+            animator.SetBool("Falling", true);
+            Invoke("CancelMove", tiempoCaida);
+        }
     }
 }

@@ -40,6 +40,7 @@ public class DragMouse : MonoBehaviour
             {
                 catcher.StopProcessingQueso(Rb.gameObject);
                 raton.canRotate = true;
+                raton.mouseMove = true;
                 raton.target = queso.gameObject.transform;
             }
         }
