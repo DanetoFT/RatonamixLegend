@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using static UnityEngine.InputSystem.UI.VirtualMouseInput;
 
 public class PleassureBotton : MonoBehaviour
 {
@@ -18,7 +19,17 @@ public class PleassureBotton : MonoBehaviour
     private bool isMouseOnPlate = false;
     private bool isPermanentlyOpen = false;
     private Coroutine doorCoroutine;
-   
+
+    public Texture2D mainCursor;
+    public Texture2D grabCursor;
+    public Texture2D interactCursor;
+
+    public Vector2 posicionCursor;
+    private void Start()
+    {
+        Cursor.SetCursor(null, posicionCursor, UnityEngine.CursorMode.Auto);
+
+    }
 
     private void Update()
     {
@@ -31,6 +42,22 @@ public class PleassureBotton : MonoBehaviour
         else if (Input.GetMouseButtonUp(0))
         {
             CheckClickableObject(false);
+        }
+
+        CheckInteractuable();
+    }
+
+    void CheckInteractuable()
+    {
+        bool ratonCheck = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero, Mathf.Infinity, clickableLayer);
+
+        if (ratonCheck)
+        {
+            Cursor.SetCursor(interactCursor, posicionCursor, UnityEngine.CursorMode.Auto);
+        }
+        else
+        {
+            Cursor.SetCursor(mainCursor, posicionCursor, UnityEngine.CursorMode.Auto);
         }
     }
 

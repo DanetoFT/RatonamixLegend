@@ -1384,6 +1384,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 33554432
   clickableTag: Clickable
+  mainCursor: {fileID: 2800000, guid: 2b780ce9931bdf04e8208fdbf45fd817, type: 3}
+  grabCursor: {fileID: 2800000, guid: 3cb834356264a88488d5f74e044a4904, type: 3}
+  interactCursor: {fileID: 2800000, guid: c947a738046f73d49aa44cf3ebd74525, type: 3}
+  posicionCursor: {x: 0, y: 0}
 --- !u!95 &399141390
 Animator:
   serializedVersion: 7
