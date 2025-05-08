@@ -10,7 +10,7 @@ public class CheeseCatcher : MonoBehaviour
     public float particuleTime;
     public GameObject particuleSystem;
 
-    private Dictionary<GameObject, Coroutine> activeCoroutines = new Dictionary<GameObject, Coroutine>();
+    public Dictionary<GameObject, Coroutine> activeCoroutines = new Dictionary<GameObject, Coroutine>();
     private Dictionary<GameObject, int> currentSpriteIndices = new Dictionary<GameObject, int>();
     private Dictionary<GameObject, RigidbodyType2D> initialBodyTypes = new Dictionary<GameObject, RigidbodyType2D>();
 
@@ -25,6 +25,8 @@ public class CheeseCatcher : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (raton != null && raton.isTrapped) return;
+
         var queso = other.gameObject.GetComponent<Queso>();
         if (queso != null && !activeCoroutines.ContainsKey(other.gameObject))
         {
@@ -77,18 +79,25 @@ public class CheeseCatcher : MonoBehaviour
         if (rb != null)
         {
             initialBodyTypes[queso] = rb.bodyType;
-            rb.bodyType = RigidbodyType2D.Kinematic;
-            rb.linearVelocity = Vector2.zero;
         }
-
-        //queso.transform.position = cheeseHoldPoint.position;
-        //queso.transform.SetParent(cheeseHoldPoint);
 
         SpriteRenderer Sr = queso.GetComponent<SpriteRenderer>();
         if (Sr != null && cheeseSprites.Length > 0)
         {
+            if (raton != null && raton.isTrapped)
+            {
+                StopProcessingQueso(queso);
+                yield break;
+            }
+
             for (int i = startIndex; i < cheeseSprites.Length; i++)
             {
+                if (raton != null && raton.isTrapped)
+                {
+                    StopProcessingQueso(queso);
+                    yield break;
+                }
+
                 currentSpriteIndices[queso] = i;
                 Sr.sprite = cheeseSprites[i];
 
@@ -96,12 +105,7 @@ public class CheeseCatcher : MonoBehaviour
                 if (particuleSystem != null)
                 {
                     Quaternion RotationParticule = Quaternion.Euler(-180f, 90f, 0f);
-                    particuleInstance = Instantiate(
-                        particuleSystem,
-                        queso.transform.position,
-                        RotationParticule,
-                        queso.transform
-                    );
+                    particuleInstance = Instantiate(particuleSystem, queso.transform.position, RotationParticule, queso.transform);
                     particuleInstance.layer = LayerMask.NameToLayer("ParticleEffect");
                 }
 
@@ -120,6 +124,7 @@ public class CheeseCatcher : MonoBehaviour
             }
             Destroy(queso);
         }
+
         currentSpriteIndices.Remove(queso);
         activeCoroutines.Remove(queso);
     }

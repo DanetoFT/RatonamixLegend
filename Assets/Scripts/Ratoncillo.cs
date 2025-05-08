@@ -25,6 +25,7 @@ public class Ratoncillo : MonoBehaviour
     public bool mouseMove;
     public bool canRotate;
     public float speed;
+    public bool isTrapped;
 
     public Vector2 directionToCheese;
 
@@ -41,6 +42,7 @@ public class Ratoncillo : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (isTrapped) return;
         if (canRotate)
         {
             UpdateTargetRotation();
@@ -68,7 +70,7 @@ public class Ratoncillo : MonoBehaviour
 
     void RotateTowardsTarget()
     {
-        if(targetDirection == Vector2.zero)
+        if (targetDirection == Vector2.zero)
         {
             return;
         }
@@ -100,7 +102,7 @@ public class Ratoncillo : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Fall")
+        if (other.gameObject.tag == "Fall")
         {
             animator.SetBool("Falling", true);
             Invoke("CancelMove", tiempoCaida);

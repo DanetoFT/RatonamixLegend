@@ -3,17 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Search;
 
-
 public class DragMouse : MonoBehaviour
 {
     public float Force = 500f;
     public LayerMask draggable;
-    private Rigidbody2D Rb;
+    public Rigidbody2D Rb;
     private CheeseCatcher catcher;
     public Queso queso;
     public Ratoncillo raton;
-
-    
 
     private void Start()
     {
@@ -22,7 +19,7 @@ public class DragMouse : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Rb != null && Rb.bodyType == RigidbodyType2D.Dynamic)
+        if (Rb != null && Rb.bodyType == RigidbodyType2D.Dynamic && Input.GetMouseButton(0))
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePos.z = 0;
@@ -33,25 +30,40 @@ public class DragMouse : MonoBehaviour
 
     private void Update()
     {
+        if (raton != null && raton.isTrapped) return;
+
         if (Input.GetMouseButtonDown(0))
         {
             Rb = GetRigidbodyFromMouseClick();
-            if (Rb != null && catcher != null)
+            if (Rb != null)
             {
-                catcher.StopProcessingQueso(Rb.gameObject);
-                raton.canRotate = true;
-                raton.mouseMove = true;
-                raton.target = queso.gameObject.transform;
+               
+                Rb.bodyType = RigidbodyType2D.Dynamic;
+
+                if (catcher != null)
+                {
+                    catcher.StopProcessingQueso(Rb.gameObject);
+                }
+
+                if (raton != null)
+                {
+                    raton.canRotate = true;
+                    raton.mouseMove = true;
+                    raton.target = queso != null ? queso.gameObject.transform : null;
+                }
             }
         }
+
         if (Input.GetMouseButtonUp(0))
         {
             if (Rb != null)
             {
+                
                 Rb.linearVelocity = Vector2.zero;
                 Rb.angularVelocity = 0f;
+                Rb.bodyType = RigidbodyType2D.Kinematic;
+                Rb = null;
             }
-            Rb = null;
         }
     }
 
