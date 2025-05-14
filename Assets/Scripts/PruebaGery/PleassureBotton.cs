@@ -21,14 +21,14 @@ public class PleassureBotton : MonoBehaviour
     private Coroutine doorCoroutine;
 
     public Texture2D mainCursor;
-    public Texture2D grabCursor;
     public Texture2D interactCursor;
 
     public Vector2 posicionCursor;
+
+    public DragMouse dragMouse;
     private void Start()
     {
         Cursor.SetCursor(null, posicionCursor, UnityEngine.CursorMode.Auto);
-
     }
 
     private void Update()
@@ -54,8 +54,9 @@ public class PleassureBotton : MonoBehaviour
         if (ratonCheck)
         {
             Cursor.SetCursor(interactCursor, posicionCursor, UnityEngine.CursorMode.Auto);
+            dragMouse.cambioCursor = true;
         }
-        else
+        else if (!ratonCheck && dragMouse.cambioCursor)
         {
             Cursor.SetCursor(mainCursor, posicionCursor, UnityEngine.CursorMode.Auto);
         }

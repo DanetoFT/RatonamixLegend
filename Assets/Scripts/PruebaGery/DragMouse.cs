@@ -12,6 +12,10 @@ public class DragMouse : MonoBehaviour
     public Queso queso;
     public Ratoncillo raton;
 
+    public Texture2D mainCursor;
+    public Texture2D grabCursor;
+    public bool cambioCursor;
+
     private void Start()
     {
         catcher = FindAnyObjectByType<CheeseCatcher>();
@@ -21,7 +25,8 @@ public class DragMouse : MonoBehaviour
     {
         if (Rb != null && Rb.bodyType == RigidbodyType2D.Dynamic && Input.GetMouseButton(0))
         {
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 suma = new Vector3(0.3f, -0.3f, 0);
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition) + suma;
             mousePos.z = 0;
             Vector3 direction = (mousePos - Rb.transform.position);
             Rb.linearVelocity = direction * Force * Time.fixedDeltaTime;
@@ -37,7 +42,9 @@ public class DragMouse : MonoBehaviour
             Rb = GetRigidbodyFromMouseClick();
             if (Rb != null)
             {
-               
+                Cursor.SetCursor(grabCursor, Vector2.zero, UnityEngine.CursorMode.Auto);
+                cambioCursor = false;
+
                 Rb.bodyType = RigidbodyType2D.Dynamic;
 
                 if (catcher != null)
@@ -58,7 +65,8 @@ public class DragMouse : MonoBehaviour
         {
             if (Rb != null)
             {
-                
+                Cursor.SetCursor(mainCursor, Vector2.zero, UnityEngine.CursorMode.Auto);
+                cambioCursor = true;
                 Rb.linearVelocity = Vector2.zero;
                 Rb.angularVelocity = 0f;
                 Rb.bodyType = RigidbodyType2D.Kinematic;
