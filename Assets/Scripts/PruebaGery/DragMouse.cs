@@ -16,6 +16,9 @@ public class DragMouse : MonoBehaviour
     public Texture2D grabCursor;
     public bool cambioCursor;
 
+    private bool isDragging = false;
+    private bool justStartedDragging = false;
+
     private void Start()
     {
         catcher = FindAnyObjectByType<CheeseCatcher>();
@@ -25,6 +28,12 @@ public class DragMouse : MonoBehaviour
     {
         if (Rb != null && Rb.bodyType == RigidbodyType2D.Dynamic && Input.GetMouseButton(0))
         {
+            if (justStartedDragging)
+            {
+                justStartedDragging = false;
+                return;
+            }
+
             Vector3 suma = new Vector3(0.3f, -0.3f, 0);
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition) + suma;
             mousePos.z = 0;
@@ -58,6 +67,9 @@ public class DragMouse : MonoBehaviour
                     raton.mouseMove = true;
                     raton.target = queso != null ? queso.gameObject.transform : null;
                 }
+
+                isDragging = true;
+                justStartedDragging = true;
             }
         }
 
@@ -69,9 +81,11 @@ public class DragMouse : MonoBehaviour
                 cambioCursor = true;
                 Rb.linearVelocity = Vector2.zero;
                 Rb.angularVelocity = 0f;
-                Rb.bodyType = RigidbodyType2D.Kinematic;
+                Rb.bodyType = RigidbodyType2D.Static;
                 Rb = null;
             }
+
+            isDragging = false;
         }
     }
 
