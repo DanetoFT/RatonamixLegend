@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: b7eaedf1c83ac06489685c555b6e9751
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2034185741549688091
+    second: ratonDraw2-Sheet_0
+  - first:
+      213: -5709444692794669246
+    second: ratonDraw2-Sheet_1
+  - first:
+      213: 5550076647487627135
+    second: ratonDraw2-Sheet_2
+  - first:
+      213: -2798124351911455768
+    second: ratonDraw2-Sheet_3
+  - first:
+      213: -8129793327886345639
+    second: ratonDraw2-Sheet_4
+  - first:
+      213: -3154861232019056386
+    second: ratonDraw2-Sheet_5
+  - first:
+      213: 2706038690343097894
+    second: ratonDraw2-Sheet_6
+  - first:
+      213: 2156731586881640224
+    second: ratonDraw2-Sheet_7
+  - first:
+      213: 3506119251744800082
+    second: ratonDraw2-Sheet_8
+  - first:
+      213: -3293077071122166628
+    second: ratonDraw2-Sheet_9
+  - first:
+      213: 4034464192078527522
+    second: ratonDraw2-Sheet_10
+  - first:
+      213: -7964431335897377423
+    second: ratonDraw2-Sheet_11
+  - first:
+      213: 5978304204138194077
+    second: ratonDraw2-Sheet_12
+  - first:
+      213: 2473179878067110374
+    second: ratonDraw2-Sheet_13
+  - first:
+      213: 3584527102777920735
+    second: ratonDraw2-Sheet_14
+  - first:
+      213: 4944679238395540212
+    second: ratonDraw2-Sheet_15
+  - first:
+      213: -6976657879933390240
+    second: ratonDraw2-Sheet_16
+  - first:
+      213: 8677479333493834308
+    second: ratonDraw2-Sheet_17
+  - first:
+      213: 6982911083771743593
+    second: ratonDraw2-Sheet_18
+  - first:
+      213: 3766421162750884813
+    second: ratonDraw2-Sheet_19
+  - first:
+      213: -7791606719666217206
+    second: ratonDraw2-Sheet_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 55
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15db348721ea3c10800000000000000
+      internalID: 2034185741549688091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 11
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2470c354d4af3c0b0800000000000000
+      internalID: -5709444692794669246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 11
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fd0b92e45d50d40800000000000000
+      internalID: 5550076647487627135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 11
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e392fe1ab01b29d0800000000000000
+      internalID: -2798124351911455768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a5ef1ba0c2d2f80800000000000000
+      internalID: -8129793327886345639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 11
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef85ad5bc6ea734d0800000000000000
+      internalID: -3154861232019056386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6261d560ad7cd8520800000000000000
+      internalID: 2706038690343097894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027d1ff83ff3eed10800000000000000
+      internalID: 2156731586881640224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 11
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d386c12ec38a030800000000000000
+      internalID: 3506119251744800082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c87cde9d3ac42d0800000000000000
+      internalID: -3293077071122166628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 11
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cbfd3aecb4df730800000000000000
+      internalID: 4034464192078527522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 11
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175d8d9b5e7a87190800000000000000
+      internalID: -7964431335897377423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 11
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94a1eecff337f250800000000000000
+      internalID: 5978304204138194077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e185d1eeff725220800000000000000
+      internalID: 2473179878067110374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc86d8886cceb130800000000000000
+      internalID: 3584527102777920735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 11
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2b0dcb1970f9440800000000000000
+      internalID: 4944679238395540212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062f3234f9eed2f90800000000000000
+      internalID: -6976657879933390240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44281b28a799c6870800000000000000
+      internalID: 8677479333493834308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 11
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d4a5632a848e060800000000000000
+      internalID: 6982911083771743593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbb7489714054430800000000000000
+      internalID: 3766421162750884813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonDraw2-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 11
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f9fbc58f6aed390800000000000000
+      internalID: -7791606719666217206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ratonDraw2-Sheet_0: 2034185741549688091
+      ratonDraw2-Sheet_1: -5709444692794669246
+      ratonDraw2-Sheet_10: 4034464192078527522
+      ratonDraw2-Sheet_11: -7964431335897377423
+      ratonDraw2-Sheet_12: 5978304204138194077
+      ratonDraw2-Sheet_13: 2473179878067110374
+      ratonDraw2-Sheet_14: 3584527102777920735
+      ratonDraw2-Sheet_15: 4944679238395540212
+      ratonDraw2-Sheet_16: -6976657879933390240
+      ratonDraw2-Sheet_17: 8677479333493834308
+      ratonDraw2-Sheet_18: 6982911083771743593
+      ratonDraw2-Sheet_19: 3766421162750884813
+      ratonDraw2-Sheet_2: 5550076647487627135
+      ratonDraw2-Sheet_20: -7791606719666217206
+      ratonDraw2-Sheet_3: -2798124351911455768
+      ratonDraw2-Sheet_4: -8129793327886345639
+      ratonDraw2-Sheet_5: -3154861232019056386
+      ratonDraw2-Sheet_6: 2706038690343097894
+      ratonDraw2-Sheet_7: 2156731586881640224
+      ratonDraw2-Sheet_8: 3506119251744800082
+      ratonDraw2-Sheet_9: -3293077071122166628
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
