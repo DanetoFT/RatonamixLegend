@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a2a8f9f798ce6d64a856da7db3bf3ed0
+guid: 55ec7de14b36e734c9eb947679fb023b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7591712394741381657
-    second: Sprites suelos_0
+      213: -7708669095749650286
+    second: Sprites suelos 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -74,8 +74,8 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 2
+    textureFormat: 4
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprites suelos_0
+      name: Sprites suelos 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,14 +115,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91a7d7d433e2b5960800000000000000
-      internalID: 7591712394741381657
+      spriteID: 2987fc8bc4e450590800000000000000
+      internalID: -7708669095749650286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_1
+      name: Sprites suelos 1_1
       rect:
         serializedVersion: 2
         x: 16
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8424a7772c06f147b758547c8e4261c
-      internalID: -536749183
+      spriteID: f4e0fb55b2e875347b34dffdbf390054
+      internalID: -1502010040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_2
+      name: Sprites suelos 1_2
       rect:
         serializedVersion: 2
         x: 32
@@ -159,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 747831b82e0d69b47aaf50047a2df753
-      internalID: 7024701
+      spriteID: fe9cc8f568584e34fb9e9e89406c2902
+      internalID: -27268030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_3
+      name: Sprites suelos 1_3
       rect:
         serializedVersion: 2
         x: 48
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 429824e77c2146541bf258c6a0f3343f
-      internalID: 104534020
+      spriteID: 1440393f274b7924e842d3f1db76caab
+      internalID: -1936063836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_4
+      name: Sprites suelos 1_4
       rect:
         serializedVersion: 2
         x: 64
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 571ba24c951d32d48925605763d43dcb
-      internalID: 1508886374
+      spriteID: 6c52bd1da415d6b4e9632abbeb4c56a9
+      internalID: 637817436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_5
+      name: Sprites suelos 1_5
       rect:
         serializedVersion: 2
         x: 80
@@ -225,14 +225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96c28a801bcfafe4e9341bf1c833e6ca
-      internalID: -65878130
+      spriteID: b61a7eb56fe3a2a4689037a8a2730670
+      internalID: -2116116019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_6
+      name: Sprites suelos 1_6
       rect:
         serializedVersion: 2
         x: 0
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf335c9f9aefc6e4189021a7e6c4faa9
-      internalID: -297721906
+      spriteID: b4ed8716dc67b0544a49d05699ab3ae8
+      internalID: 829188031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_7
+      name: Sprites suelos 1_7
       rect:
         serializedVersion: 2
         x: 16
@@ -269,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ae254341df23e44cbdafcdb15139486
-      internalID: 595021236
+      spriteID: 0d6e9f4ccbb78dd4592acd20accb66c1
+      internalID: 454033375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_8
+      name: Sprites suelos 1_8
       rect:
         serializedVersion: 2
         x: 32
@@ -291,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f2c7b6e40e464947939ed6d54671726
-      internalID: 2048365441
+      spriteID: d61c8bb2ccfe2444e9bbd54a426abba0
+      internalID: 2125938487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_9
+      name: Sprites suelos 1_9
       rect:
         serializedVersion: 2
         x: 48
@@ -313,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb582853eb712454f9f851e1318f241f
-      internalID: 1267460409
+      spriteID: da9b837ee83ee7e47a2d471ab1d8d126
+      internalID: 1895248919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_10
+      name: Sprites suelos 1_10
       rect:
         serializedVersion: 2
         x: 64
@@ -335,14 +335,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68e5cafcda3bf93499259c18e42cb8b9
-      internalID: -2052276792
+      spriteID: 39b72f954983f1c449f9c648837cc447
+      internalID: -1616165297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_11
+      name: Sprites suelos 1_11
       rect:
         serializedVersion: 2
         x: 80
@@ -357,14 +357,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36e81b622ab9cab4098e44388c9a4313
-      internalID: 1577529205
+      spriteID: b1f3b8c8b507aea459e896b6698d59b7
+      internalID: -1976018501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_12
+      name: Sprites suelos 1_12
       rect:
         serializedVersion: 2
         x: 0
@@ -379,14 +379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0aba89eafec60944b0182115e963eff
-      internalID: 724760375
+      spriteID: ba0d5cbdde2d0ce4895bc18b95890352
+      internalID: 1673544707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_13
+      name: Sprites suelos 1_13
       rect:
         serializedVersion: 2
         x: 16
@@ -401,14 +401,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bafb5f6a57bcdd4ca253272a6e3d4a1
-      internalID: 347579393
+      spriteID: 170dcb5ad7464404a82a359ab652e4fb
+      internalID: -1778648023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_14
+      name: Sprites suelos 1_14
       rect:
         serializedVersion: 2
         x: 32
@@ -423,14 +423,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4950eec5f807d444eb0199f323f32205
-      internalID: 432650831
+      spriteID: 8af77e3b03199e04baa9223550109596
+      internalID: -1871014702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_15
+      name: Sprites suelos 1_15
       rect:
         serializedVersion: 2
         x: 48
@@ -445,14 +445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f8131b243d1a7b42bc00a7091aa3679
-      internalID: -442041681
+      spriteID: bdf1b4a8e50275443a574edf0b883678
+      internalID: 120210854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_16
+      name: Sprites suelos 1_16
       rect:
         serializedVersion: 2
         x: 0
@@ -467,14 +467,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 559241578e95c23478130f415a2c07bf
-      internalID: 388604127
+      spriteID: 2e880b72e9fdd5b429b558cefddf6ba2
+      internalID: -1771004015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_17
+      name: Sprites suelos 1_17
       rect:
         serializedVersion: 2
         x: 16
@@ -489,14 +489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fd90c3ab1a907645a559cfe268bada5
-      internalID: -78217248
+      spriteID: 3f409cfe59fb7b04e851c106d1b6b0d7
+      internalID: 262937561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_18
+      name: Sprites suelos 1_18
       rect:
         serializedVersion: 2
         x: 32
@@ -511,14 +511,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4fdeeb913a960443901b5164d51f4e0
-      internalID: -1877876187
+      spriteID: 98c02a73926da0347ad9ca01f58be3e4
+      internalID: -4667824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_19
+      name: Sprites suelos 1_19
       rect:
         serializedVersion: 2
         x: 48
@@ -533,14 +533,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2030f31ec2018324a904ace5659d1595
-      internalID: 1295163778
+      spriteID: bf04eaf7afe30824a912c3e66abf45a9
+      internalID: -1004192391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_20
+      name: Sprites suelos 1_20
       rect:
         serializedVersion: 2
         x: 0
@@ -555,14 +555,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 594f47cb1f3358c4fbd11fe61df548b0
-      internalID: -449597438
+      spriteID: 1a4fc1b5f3d05824bbc34d46091942f1
+      internalID: 1314794381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_21
+      name: Sprites suelos 1_21
       rect:
         serializedVersion: 2
         x: 16
@@ -577,14 +577,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 900a6b269ef27a54dbf2ab1185d8c498
-      internalID: -260363451
+      spriteID: ae16c41dca634e04abe13deae9d2648f
+      internalID: 1368922434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_22
+      name: Sprites suelos 1_22
       rect:
         serializedVersion: 2
         x: 32
@@ -599,14 +599,58 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6a5c02db01f1a84b89ffab30e2a15a3
-      internalID: 1695246304
+      spriteID: a1945132e3966a2448f71fcdf50fb2e7
+      internalID: 817747143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_23
+      name: Sprites suelos 1_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e1eb26f1efeab49a4ad1532b89e95c
+      internalID: -1824553563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites suelos 1_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704331598c09d6045910b5b76ac7aae5
+      internalID: -171522852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites suelos 1_25
       rect:
         serializedVersion: 2
         x: 0
@@ -621,14 +665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97ffdb39d3a9d724e818b0a2b144489e
-      internalID: 1983892901
+      spriteID: d09e059944ffd0b46bf565c043016e80
+      internalID: 1499688967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_24
+      name: Sprites suelos 1_26
       rect:
         serializedVersion: 2
         x: 16
@@ -643,14 +687,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2fe9d0f458683f468ae6faaafe49cc8
-      internalID: -547212778
+      spriteID: 585defb1be6cfe244bf1b0dc382437fb
+      internalID: 295918493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites suelos_25
+      name: Sprites suelos 1_27
       rect:
         serializedVersion: 2
         x: 32
@@ -665,8 +709,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9758f61308609194c96bd36bf3c510a7
-      internalID: -795959962
+      spriteID: ffa14ff30fcfd7e4f929bf3081afc30d
+      internalID: 1415677248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites suelos 1_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791f93df45afb8746af1181ff3ca903b
+      internalID: -1820175890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites suelos 1_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01130c308534ee4797f2268803e875d
+      internalID: 831693879
       vertices: []
       indices: 
       edges: []
@@ -675,7 +763,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 73f2071df6a5f504d8daafd713348cd5
+    spriteID: 4b19ea1d3b3c79c489e06bf5c59ba164
     internalID: 0
     vertices: []
     indices: 
@@ -685,32 +773,36 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sprites suelos_0: 7591712394741381657
-      Sprites suelos_1: -536749183
-      Sprites suelos_10: -2052276792
-      Sprites suelos_11: 1577529205
-      Sprites suelos_12: 724760375
-      Sprites suelos_13: 347579393
-      Sprites suelos_14: 432650831
-      Sprites suelos_15: -442041681
-      Sprites suelos_16: 388604127
-      Sprites suelos_17: -78217248
-      Sprites suelos_18: -1877876187
-      Sprites suelos_19: 1295163778
-      Sprites suelos_2: 7024701
-      Sprites suelos_20: -449597438
-      Sprites suelos_21: -260363451
-      Sprites suelos_22: 1695246304
-      Sprites suelos_23: 1983892901
-      Sprites suelos_24: -547212778
-      Sprites suelos_25: -795959962
-      Sprites suelos_3: 104534020
-      Sprites suelos_4: 1508886374
-      Sprites suelos_5: -65878130
-      Sprites suelos_6: -297721906
-      Sprites suelos_7: 595021236
-      Sprites suelos_8: 2048365441
-      Sprites suelos_9: 1267460409
+      Sprites suelos 1_0: -7708669095749650286
+      Sprites suelos 1_1: -1502010040
+      Sprites suelos 1_10: -1616165297
+      Sprites suelos 1_11: -1976018501
+      Sprites suelos 1_12: 1673544707
+      Sprites suelos 1_13: -1778648023
+      Sprites suelos 1_14: -1871014702
+      Sprites suelos 1_15: 120210854
+      Sprites suelos 1_16: -1771004015
+      Sprites suelos 1_17: 262937561
+      Sprites suelos 1_18: -4667824
+      Sprites suelos 1_19: -1004192391
+      Sprites suelos 1_2: -27268030
+      Sprites suelos 1_20: 1314794381
+      Sprites suelos 1_21: 1368922434
+      Sprites suelos 1_22: 817747143
+      Sprites suelos 1_23: -1824553563
+      Sprites suelos 1_24: -171522852
+      Sprites suelos 1_25: 1499688967
+      Sprites suelos 1_26: 295918493
+      Sprites suelos 1_27: 1415677248
+      Sprites suelos 1_28: -1820175890
+      Sprites suelos 1_29: 831693879
+      Sprites suelos 1_3: -1936063836
+      Sprites suelos 1_4: 637817436
+      Sprites suelos 1_5: -2116116019
+      Sprites suelos 1_6: 829188031
+      Sprites suelos 1_7: 454033375
+      Sprites suelos 1_8: 2125938487
+      Sprites suelos 1_9: 1895248919
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
