@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fuegoo-Sheet_0: -4100123411912279117
+      Fuegoo-Sheet_1: -3101541755723377637
+      Fuegoo-Sheet_2: -5666108550901774800
+      Fuegoo-Sheet_3: -6014302621046969039
+      Fuegoo-Sheet_4: 1893841598536318110
+      Fuegoo-Sheet_5: -3924439750010750457
+      Fuegoo-Sheet_6: -2296630631605356504
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      matamoscas-Sheet_0: -4325697781000226283
+      matamoscas-Sheet_1: -3388056694789731854
+      matamoscas-Sheet_2: -8258086718170610414
+      matamoscas-Sheet_3: -1202429478786893532
+      matamoscas-Sheet_4: -6870042204114271213
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

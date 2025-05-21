@@ -35,6 +35,7 @@ public class CheeseCatcher : MonoBehaviour
             activeCoroutines.Add(other.gameObject, coroutine);
 
             raton.canRotate = false;
+            raton.mouseMove = false;
         }
     }
 
@@ -45,6 +46,7 @@ public class CheeseCatcher : MonoBehaviour
         {
             StopProcessingQueso(other.gameObject);
             raton.canRotate = true;
+            raton.mouseMove = true;
         }
     }
 
