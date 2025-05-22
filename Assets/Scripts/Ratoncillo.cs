@@ -53,12 +53,18 @@ public class Ratoncillo : MonoBehaviour
         {
             Movement();
         }
+        else
+        {
+            animator.SetBool("Walking", false);
+        }
     }
 
     void Movement()
     {
         Vector2 ratonToCheeseVector = target.position - transform.position;
         directionToCheese = ratonToCheeseVector.normalized;
+
+        animator.SetBool("Walking", true);
 
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
     }
