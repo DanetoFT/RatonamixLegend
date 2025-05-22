@@ -16,7 +16,6 @@ public class DragMouse : MonoBehaviour
     public Texture2D grabCursor;
     public bool cambioCursor;
 
-    private bool isDragging = false;
     private bool justStartedDragging = false;
 
     private void Start()
@@ -68,7 +67,6 @@ public class DragMouse : MonoBehaviour
                     raton.target = queso != null ? queso.gameObject.transform : null;
                 }
 
-                isDragging = true;
                 justStartedDragging = true;
             }
         }
@@ -85,7 +83,6 @@ public class DragMouse : MonoBehaviour
                 Rb = null;
             }
 
-            isDragging = false;
         }
     }
 

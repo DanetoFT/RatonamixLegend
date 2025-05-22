@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      botonmano_0: -5919703272267782000
+      botonmano_1: -5600510201570425081
+      botonmano_2: -772416683714950205
+      botonmano_3: -3055820247128885846
+      botonmano_4: -1339142676447720837
+      botonmano_5: 1548215652735944401
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

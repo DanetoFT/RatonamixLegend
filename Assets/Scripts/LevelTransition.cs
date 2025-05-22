@@ -13,7 +13,7 @@ public class LevelTransition : MonoBehaviour
     public float fadeDuration = 1f;
     private bool enTransicion = false;
 
-    private int nivelActual = 0;
+    public int nivelActual = 0;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -31,7 +31,7 @@ public class LevelTransition : MonoBehaviour
         }
     }
 
-    IEnumerator TransicionCoroutine(int indice)
+    public IEnumerator TransicionCoroutine(int indice)
     {
         enTransicion = true;
 
@@ -42,6 +42,7 @@ public class LevelTransition : MonoBehaviour
         if (indice < nivelesADesactivar.Length && nivelesADesactivar[indice] != null)
         {
             nivelesADesactivar[indice].SetActive(false);
+            nivelActual++;
         }
 
         yield return new WaitForSeconds(0.2f);
@@ -50,7 +51,8 @@ public class LevelTransition : MonoBehaviour
 
         enTransicion = false;
     }
-    IEnumerator FadeToBlack()
+
+    public IEnumerator FadeToBlack()
     {
         float tiempo = 0f;
         while (tiempo < fadeDuration)
@@ -61,7 +63,7 @@ public class LevelTransition : MonoBehaviour
             yield return null;
         }
     }
-    IEnumerator FadeFromBlack()
+    public IEnumerator FadeFromBlack()
     {
         float tiempo = 0f;
         while (tiempo < fadeDuration)

@@ -29,9 +29,14 @@ public class Ratoncillo : MonoBehaviour
 
     public Vector2 directionToCheese;
 
+    LevelTransition level;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        level = GetComponent<LevelTransition>();
+        level.nivelActual = 0;
+
         animator = GetComponent<Animator>();
         canRotate = false;
         mouseMove = false;
@@ -106,11 +111,17 @@ public class Ratoncillo : MonoBehaviour
         canRotate = false;
     }
 
+    void Respawn()
+    {
+        transform.position = level.puntosDeNivel[level.nivelActual].position;
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Fall")
         {
             animator.SetBool("Falling", true);
+            level.TransicionCoroutine(level.nivelActual);
             Invoke("CancelMove", tiempoCaida);
         }
     }
