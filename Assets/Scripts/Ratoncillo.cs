@@ -23,6 +23,7 @@ public class Ratoncillo : MonoBehaviour
 
     public float rotationSpeed;
     public bool mouseMove;
+    public bool canMove;
     public bool canRotate;
     public float speed;
     public bool isTrapped;
@@ -31,9 +32,12 @@ public class Ratoncillo : MonoBehaviour
 
     LevelTransition level;
 
+    public Animator transition;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        canMove = true;
         level = GetComponent<LevelTransition>();
         level.nivelActual = 0;
 
@@ -54,13 +58,21 @@ public class Ratoncillo : MonoBehaviour
             RotateTowardsTarget();
         }
 
-        if (mouseMove)
+        if (mouseMove && canMove)
         {
             Movement();
         }
         else
         {
-            animator.SetBool("Walking", false);
+            animator.SetTrigger("Idle");
+        }
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Respawn();
         }
     }
 
@@ -109,11 +121,24 @@ public class Ratoncillo : MonoBehaviour
     {
         mouseMove = false;
         canRotate = false;
+        canMove = false;
+        animator.SetTrigger("Idle");
     }
 
-    void Respawn()
+    public void Respawn()
+    {
+        transition.SetBool("Transition", true);
+        CancelMove();
+        Invoke("moverRaton", .2f);
+    }
+
+    void moverRaton()
     {
         transform.position = level.puntosDeNivel[level.nivelActual].position;
+        animator.SetBool("Falling", false);
+        animator.SetBool("Eating", false);
+        canMove = true;
+        GetComponent<Collider>().enabled = true;
     }
 
     private void OnTriggerEnter2D(Collider2D other)

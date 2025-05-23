@@ -45,9 +45,14 @@ public class CheeseCatcher : MonoBehaviour
         if (queso != null && activeCoroutines.ContainsKey(other.gameObject))
         {
             StopProcessingQueso(other.gameObject);
-            raton.canRotate = true;
-            raton.mouseMove = true;
+            Invoke("moverRaton", .5f);
         }
+    }
+
+    void moverRaton()
+    {
+        raton.canRotate = true;
+        raton.mouseMove = true;
     }
 
     public void StopProcessingQueso(GameObject queso)

@@ -62,8 +62,7 @@ public class DragMouse : MonoBehaviour
 
                 if (raton != null)
                 {
-                    raton.canRotate = true;
-                    raton.mouseMove = true;
+                    Invoke("moverRaton", .5f);
                     raton.target = queso != null ? queso.gameObject.transform : null;
                 }
 
@@ -79,11 +78,17 @@ public class DragMouse : MonoBehaviour
                 cambioCursor = true;
                 Rb.linearVelocity = Vector2.zero;
                 Rb.angularVelocity = 0f;
-                Rb.bodyType = RigidbodyType2D.Static;
+                Rb.bodyType = RigidbodyType2D.Kinematic;
                 Rb = null;
             }
 
         }
+    }
+
+    void moverRaton()
+    {
+        raton.canRotate = true;
+        raton.mouseMove = true;
     }
 
     private Rigidbody2D GetRigidbodyFromMouseClick()
