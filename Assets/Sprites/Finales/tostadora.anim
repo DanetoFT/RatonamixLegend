@@ -27,7 +27,7 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.3
+        time: 0.1
         value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -74,7 +74,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.3
+        time: 0.1
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -104,11 +104,11 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -4325697781000226283, guid: d87e3cc734138f54e8218b5b51c10bed, type: 3}
-    - time: 0.1
+    - time: 0.033333335
       value: {fileID: -3388056694789731854, guid: d87e3cc734138f54e8218b5b51c10bed, type: 3}
-    - time: 0.2
+    - time: 0.06666667
       value: {fileID: -8258086718170610414, guid: d87e3cc734138f54e8218b5b51c10bed, type: 3}
-    - time: 0.3
+    - time: 0.1
       value: {fileID: -1202429478786893532, guid: d87e3cc734138f54e8218b5b51c10bed, type: 3}
     - time: 0.36666667
       value: {fileID: -8258086718170610414, guid: d87e3cc734138f54e8218b5b51c10bed, type: 3}
@@ -201,7 +201,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.3
+        time: 0.1
         value: 0
         inSlope: 0
         outSlope: 0
@@ -249,7 +249,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.3
+        time: 0.1
         value: 0
         inSlope: 0
         outSlope: 0
@@ -297,7 +297,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.3
+        time: 0.1
         value: 0
         inSlope: 0
         outSlope: 0
@@ -345,7 +345,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.3
+        time: 0.1
         value: 1
         inSlope: Infinity
         outSlope: Infinity
