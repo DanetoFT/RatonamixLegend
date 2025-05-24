@@ -10,10 +10,16 @@ public class TrampaDardos : MonoBehaviour
     public Transform firePoint;
     public Vector2 dartDirection = Vector2.right;
     public float dartSpeed = 10f;
+    public Animator anim;
 
     [Header("Cooldown")]
     public float fireRate = 1f;
     private float fireCooldown;
+
+    private void Start()
+    {
+        
+    }
 
     private void OnTriggerStay2D(Collider2D other)
     {
@@ -34,6 +40,8 @@ public class TrampaDardos : MonoBehaviour
         if (rb != null)
         {
             rb.linearVelocity = dartDirection.normalized * dartSpeed;
+
+            anim.SetTrigger("Shoot");
         }
     }
 }

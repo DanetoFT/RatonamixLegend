@@ -146,8 +146,12 @@ public class Ratoncillo : MonoBehaviour
         if (other.gameObject.tag == "Fall")
         {
             animator.SetBool("Falling", true);
-            level.TransicionCoroutine(level.nivelActual);
+            //level.TransicionCoroutine(level.nivelActual);
             Invoke("CancelMove", tiempoCaida);
+        }
+        else if(other.gameObject.tag == "Matamoscas")
+        {
+            CancelMove();
         }
     }
 }

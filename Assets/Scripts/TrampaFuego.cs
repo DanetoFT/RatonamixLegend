@@ -17,6 +17,8 @@ public class TrampaFuego : MonoBehaviour
     private bool isFireOn = false;
     private float timer = 0f;
 
+    Ratoncillo raton;
+
     void Start()
     {
         SetFireState(false);
@@ -49,10 +51,14 @@ public class TrampaFuego : MonoBehaviour
     {
         Debug.Log("Algo tocó el fuego: " + other.name);
 
+        raton = other.GetComponent<Ratoncillo>();
+
         if (!isFireOn) return;
 
         if (((1 << other.gameObject.layer) & playerLayer) != 0)
         {
+            raton.Respawn();
+
             Debug.Log("[¡Jugador murió al tocar el fuego!");
         }
     }
