@@ -162,7 +162,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 10
   m_Sprite: {fileID: -4325697781000226283, guid: d87e3cc734138f54e8218b5b51c10bed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -188,7 +188,7 @@ GameObject:
   - component: {fileID: 4911973760685549348}
   m_Layer: 0
   m_Name: matamoscas
-  m_TagString: Untagged
+  m_TagString: Matamoscas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

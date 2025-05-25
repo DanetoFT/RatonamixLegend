@@ -8,7 +8,7 @@ public class TrampaDardos : MonoBehaviour
     [Header("Disparo")]
     public GameObject dartPrefab;
     public Transform firePoint;
-    public Vector2 dartDirection = Vector2.right;
+    public Vector2 dartDirection = Vector2.down;
     public float dartSpeed = 10f;
     public Animator anim;
 
