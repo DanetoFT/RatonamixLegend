@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: d0882ead073c31e4fb6ac2f09a2419f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7930622535399115795
+    second: ratonMoveDark_0
+  - first:
+      213: 3804550851494814003
+    second: ratonMoveDark_1
+  - first:
+      213: -2442477882843663668
+    second: ratonMoveDark_2
+  - first:
+      213: 4227222256132960532
+    second: ratonMoveDark_3
+  - first:
+      213: 628677449148031766
+    second: ratonMoveDark_4
+  - first:
+      213: 1799793604800277883
+    second: ratonMoveDark_5
+  - first:
+      213: -3302414849239947909
+    second: ratonMoveDark_6
+  - first:
+      213: -8790662374350501172
+    second: ratonMoveDark_7
+  - first:
+      213: -1406126664394464076
+    second: ratonMoveDark_8
+  - first:
+      213: -3622976158025276661
+    second: ratonMoveDark_9
+  - first:
+      213: -226462803797432451
+    second: ratonMoveDark_10
+  - first:
+      213: 457453084384757151
+    second: ratonMoveDark_11
+  - first:
+      213: 7333290520103750155
+    second: ratonMoveDark_12
+  - first:
+      213: -8044010332535468722
+    second: ratonMoveDark_13
+  - first:
+      213: 4151100285946724084
+    second: ratonMoveDark_14
+  - first:
+      213: 8579242562764925177
+    second: ratonMoveDark_15
+  - first:
+      213: -7521596430572190489
+    second: ratonMoveDark_16
+  - first:
+      213: 6532024963684386334
+    second: ratonMoveDark_17
+  - first:
+      213: -658822617549330785
+    second: ratonMoveDark_18
+  - first:
+      213: 3333904102655770466
+    second: ratonMoveDark_19
+  - first:
+      213: -6125675519919192218
+    second: ratonMoveDark_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ratonMoveDark_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3f3d182d4c0f190800000000000000
+      internalID: -7930622535399115795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 11
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331224197da7cc430800000000000000
+      internalID: 3804550851494814003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 11
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2fa5d6e439a1ed0800000000000000
+      internalID: -2442477882843663668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 11
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4113e63ce3c1aaa30800000000000000
+      internalID: 4227222256132960532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61364c22fc289b800800000000000000
+      internalID: 628677449148031766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 11
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7de3237fb62af810800000000000000
+      internalID: 1799793604800277883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75e31a01377b22d0800000000000000
+      internalID: -3302414849239947909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca427c352b410680800000000000000
+      internalID: -8790662374350501172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 11
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4209baf3f6c7ce0800000000000000
+      internalID: -1406126664394464076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03a13f216a98bdc0800000000000000
+      internalID: -3622976158025276661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 11
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77a0d0a7417bdcf0800000000000000
+      internalID: -226462803797432451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 11
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9509241823395600800000000000000
+      internalID: 457453084384757151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 11
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a0685efd415c560800000000000000
+      internalID: 7333290520103750155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_13
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4dc6a7b83fed5090800000000000000
+      internalID: -8044010332535468722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_14
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe70e277bbab9930800000000000000
+      internalID: 4151100285946724084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_15
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 11
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8e383f7a79f0770800000000000000
+      internalID: 8579242562764925177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_16
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e406e3c5ebed9790800000000000000
+      internalID: -7521596430572190489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_17
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e164468a81a66aa50800000000000000
+      internalID: 6532024963684386334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_18
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 11
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96aaf6e1546bd6f0800000000000000
+      internalID: -658822617549330785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_19
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 11
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fb30a1e18644e20800000000000000
+      internalID: 3333904102655770466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratonMoveDark_20
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 11
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66709e1e19a3dfaa0800000000000000
+      internalID: -6125675519919192218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ratonMoveDark_0: -7930622535399115795
+      ratonMoveDark_1: 3804550851494814003
+      ratonMoveDark_10: -226462803797432451
+      ratonMoveDark_11: 457453084384757151
+      ratonMoveDark_12: 7333290520103750155
+      ratonMoveDark_13: -8044010332535468722
+      ratonMoveDark_14: 4151100285946724084
+      ratonMoveDark_15: 8579242562764925177
+      ratonMoveDark_16: -7521596430572190489
+      ratonMoveDark_17: 6532024963684386334
+      ratonMoveDark_18: -658822617549330785
+      ratonMoveDark_19: 3333904102655770466
+      ratonMoveDark_2: -2442477882843663668
+      ratonMoveDark_20: -6125675519919192218
+      ratonMoveDark_3: 4227222256132960532
+      ratonMoveDark_4: 628677449148031766
+      ratonMoveDark_5: 1799793604800277883
+      ratonMoveDark_6: -3302414849239947909
+      ratonMoveDark_7: -8790662374350501172
+      ratonMoveDark_8: -1406126664394464076
+      ratonMoveDark_9: -3622976158025276661
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
