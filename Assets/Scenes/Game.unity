@@ -3045,7 +3045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 423856782}
   m_Layer: 0
-  m_Name: respawn1 (1)
+  m_Name: respawn1
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -3305,7 +3305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 475943086}
   m_Layer: 0
-  m_Name: respawn1 (1)
+  m_Name: respawn4
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -3829,7 +3829,7 @@ GameObject:
   m_Component:
   - component: {fileID: 603271099}
   m_Layer: 0
-  m_Name: respawn1 (1)
+  m_Name: respawn11
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5004,7 +5004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 779469055}
   m_Layer: 0
-  m_Name: respawn1 (1)
+  m_Name: respawn6
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5439,7 +5439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 901482191}
   m_Layer: 0
-  m_Name: respawn1 (1)
+  m_Name: respawn10
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5535,7 +5535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 927504649}
   m_Layer: 0
-  m_Name: respawn1 (1)
+  m_Name: respawn2
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5628,7 +5628,7 @@ GameObject:
   m_Component:
   - component: {fileID: 989349938}
   m_Layer: 0
-  m_Name: respawn1 (1)
+  m_Name: respawn14
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6178,7 +6178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1175737616}
   m_Layer: 0
-  m_Name: respawn1 (1)
+  m_Name: respawn5
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -7683,7 +7683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1578769192}
   m_Layer: 0
-  m_Name: respawn1 (1)
+  m_Name: respawn13
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -9092,7 +9092,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1864931850}
   m_Layer: 0
-  m_Name: respawn1 (1)
+  m_Name: respawn12
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -9190,7 +9190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1885809146}
   m_Layer: 0
-  m_Name: respawn1 (1)
+  m_Name: respawn9
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -9221,7 +9221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1886206740}
   m_Layer: 0
-  m_Name: respawn1 (1)
+  m_Name: respawn7
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -9540,7 +9540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1941431377}
   m_Layer: 0
-  m_Name: respawn1 (1)
+  m_Name: respawn8
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -9739,7 +9739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1998317053}
   m_Layer: 0
-  m_Name: Tuto2 (1)
+  m_Name: Nivel11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9955,7 +9955,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2133016654}
   m_Layer: 0
-  m_Name: respawn1 (1)
+  m_Name: respawn3
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -10221,7 +10221,7 @@ PrefabInstance:
       objectReference: {fileID: 1931898174}
     - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
       propertyPath: puntosDeNivel.Array.size
-      value: 2
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
       propertyPath: 'puntosDeNivel.Array.data[0]'
@@ -10232,8 +10232,56 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 927504649}
     - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'puntosDeNivel.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2133016654}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'puntosDeNivel.Array.data[3]'
+      value: 
+      objectReference: {fileID: 475943086}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'puntosDeNivel.Array.data[4]'
+      value: 
+      objectReference: {fileID: 1175737616}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'puntosDeNivel.Array.data[5]'
+      value: 
+      objectReference: {fileID: 779469055}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'puntosDeNivel.Array.data[6]'
+      value: 
+      objectReference: {fileID: 1886206740}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'puntosDeNivel.Array.data[7]'
+      value: 
+      objectReference: {fileID: 1941431377}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'puntosDeNivel.Array.data[8]'
+      value: 
+      objectReference: {fileID: 1885809146}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'puntosDeNivel.Array.data[9]'
+      value: 
+      objectReference: {fileID: 901482191}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'puntosDeNivel.Array.data[10]'
+      value: 
+      objectReference: {fileID: 603271099}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'puntosDeNivel.Array.data[11]'
+      value: 
+      objectReference: {fileID: 1864931850}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'puntosDeNivel.Array.data[12]'
+      value: 
+      objectReference: {fileID: 1578769192}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'puntosDeNivel.Array.data[13]'
+      value: 
+      objectReference: {fileID: 989349938}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
       propertyPath: nivelesADesactivar.Array.size
-      value: 2
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
       propertyPath: 'nivelesADesactivar.Array.data[0]'
@@ -10243,6 +10291,54 @@ PrefabInstance:
       propertyPath: 'nivelesADesactivar.Array.data[1]'
       value: 
       objectReference: {fileID: 300775327}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'nivelesADesactivar.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1216407826}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'nivelesADesactivar.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2051984427}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'nivelesADesactivar.Array.data[4]'
+      value: 
+      objectReference: {fileID: 1119380023}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'nivelesADesactivar.Array.data[5]'
+      value: 
+      objectReference: {fileID: 137141824}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'nivelesADesactivar.Array.data[6]'
+      value: 
+      objectReference: {fileID: 168938795}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'nivelesADesactivar.Array.data[7]'
+      value: 
+      objectReference: {fileID: 428035277}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'nivelesADesactivar.Array.data[8]'
+      value: 
+      objectReference: {fileID: 470842676}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'nivelesADesactivar.Array.data[9]'
+      value: 
+      objectReference: {fileID: 409738458}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'nivelesADesactivar.Array.data[10]'
+      value: 
+      objectReference: {fileID: 1642428392}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'nivelesADesactivar.Array.data[11]'
+      value: 
+      objectReference: {fileID: 643528981}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'nivelesADesactivar.Array.data[12]'
+      value: 
+      objectReference: {fileID: 691027125}
+    - target: {fileID: 5332692645382711309, guid: 743402f23de10414ba79c39d9d5466d2, type: 3}
+      propertyPath: 'nivelesADesactivar.Array.data[13]'
+      value: 
+      objectReference: {fileID: 1998317052}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
