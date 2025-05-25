@@ -15,10 +15,21 @@ public class LevelTransition : MonoBehaviour
 
     public int nivelActual = 0;
 
+    Ratoncillo ratoncillo;
+
+    public GameObject queso;
+
+    private void Start()
+    {
+        ratoncillo = GetComponent<Ratoncillo>();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!enTransicion && other.gameObject.layer == LayerMask.NameToLayer("nextLevel"))
         {
+            ratoncillo.canMove = false;
+
             if (nivelActual < puntosDeNivel.Length)
             {
                 StartCoroutine(TransicionCoroutine(nivelActual));
@@ -38,11 +49,13 @@ public class LevelTransition : MonoBehaviour
         yield return StartCoroutine(FadeToBlack());
 
         raton.position = puntosDeNivel[indice].position;
+        queso.transform.position = Vector2.zero;
 
         if (indice < nivelesADesactivar.Length && nivelesADesactivar[indice] != null)
         {
             nivelesADesactivar[indice].SetActive(false);
             nivelActual++;
+            nivelesADesactivar[indice + 1].SetActive(true);
         }
 
         yield return new WaitForSeconds(0.2f);

@@ -89,6 +89,7 @@ public class DragMouse : MonoBehaviour
     {
         raton.canRotate = true;
         raton.mouseMove = true;
+        raton.canMove = true;
     }
 
     private Rigidbody2D GetRigidbodyFromMouseClick()
