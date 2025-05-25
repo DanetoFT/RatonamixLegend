@@ -3426,6 +3426,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5070805893308025299, guid: a2b8fded4008fab4ba2b32705b9511b7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7156242468478665160, guid: a2b8fded4008fab4ba2b32705b9511b7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.22
@@ -3466,6 +3470,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7342026596382564499, guid: a2b8fded4008fab4ba2b32705b9511b7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7539281378017487259, guid: a2b8fded4008fab4ba2b32705b9511b7, type: 3}
       propertyPath: m_Name
       value: Veneno
@@ -3486,6 +3494,10 @@ PrefabInstance:
     - target: {fileID: 3449762352252027815, guid: 811a1869e43263844be241633c0cd3b1, type: 3}
       propertyPath: m_Name
       value: LosaDoble
+      objectReference: {fileID: 0}
+    - target: {fileID: 3449762352252027815, guid: 811a1869e43263844be241633c0cd3b1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5204083027515361025, guid: 811a1869e43263844be241633c0cd3b1, type: 3}
       propertyPath: m_LocalPosition.x

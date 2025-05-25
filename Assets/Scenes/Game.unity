@@ -24808,18 +24808,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2439146479534198847, guid: ab512fe278da00c48be1338645540721, type: 3}
-      propertyPath: m_SortingOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4350929514219627212, guid: ab512fe278da00c48be1338645540721, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5603595415298705489, guid: ab512fe278da00c48be1338645540721, type: 3}
-      propertyPath: m_BodyType
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 6010858793553315454, guid: ab512fe278da00c48be1338645540721, type: 3}
       propertyPath: m_Name
       value: Quesito
