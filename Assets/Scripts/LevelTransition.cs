@@ -13,7 +13,7 @@ public class LevelTransition : MonoBehaviour
     public float fadeDuration = 1f;
     private bool enTransicion = false;
 
-    public int nivelActual = 0;
+    public int nivelActual;
 
     Ratoncillo ratoncillo;
 
@@ -22,6 +22,7 @@ public class LevelTransition : MonoBehaviour
     private void Start()
     {
         ratoncillo = GetComponent<Ratoncillo>();
+        nivelActual = 0;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -54,7 +55,6 @@ public class LevelTransition : MonoBehaviour
         if (indice < nivelesADesactivar.Length && nivelesADesactivar[indice] != null)
         {
             nivelesADesactivar[indice].SetActive(false);
-            nivelActual++;
             nivelesADesactivar[indice + 1].SetActive(true);
         }
 
