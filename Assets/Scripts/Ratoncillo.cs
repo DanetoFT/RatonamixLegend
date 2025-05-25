@@ -149,9 +149,10 @@ public class Ratoncillo : MonoBehaviour
             //level.TransicionCoroutine(level.nivelActual);
             Invoke("CancelMove", tiempoCaida);
         }
-        else if(other.gameObject.tag == "Matamoscas")
+        else if (other.gameObject.tag == "Matamoscas")
         {
             CancelMove();
         }
     }
 }
+
