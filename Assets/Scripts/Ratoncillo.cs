@@ -9,7 +9,7 @@ public class Ratoncillo : MonoBehaviour
 
     public Transform target;
 
-    private Animator animator;
+    public Animator animator;
 
     private Transform mouseTransform;
 
@@ -123,6 +123,7 @@ public class Ratoncillo : MonoBehaviour
         canRotate = false;
         canMove = false;
         animator.SetTrigger("Idle");
+        AudioController.Instance.PlaySFX("Muerte");
     }
 
     public void Respawn()
@@ -153,6 +154,11 @@ public class Ratoncillo : MonoBehaviour
         {
             CancelMove();
         }
+    }
+
+    public void ReproducirQueso()
+    {
+        AudioController.Instance.PlaySFX("Queso");
     }
 }
 

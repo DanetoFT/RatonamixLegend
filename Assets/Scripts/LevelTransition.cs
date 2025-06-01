@@ -33,6 +33,7 @@ public class LevelTransition : MonoBehaviour
 
             if (nivelActual < puntosDeNivel.Length)
             {
+                AudioController.Instance.PlaySFX("Victoria");
                 StartCoroutine(TransicionCoroutine(nivelActual));
                 nivelActual++;
             }

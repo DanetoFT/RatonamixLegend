@@ -42,6 +42,8 @@ public class TrampaDardos : MonoBehaviour
             rb.linearVelocity = dartDirection.normalized * dartSpeed;
 
             anim.SetTrigger("Shoot");
+
+            AudioController.Instance.PlaySFX("Tostadora");
         }
     }
 }

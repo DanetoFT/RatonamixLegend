@@ -32,6 +32,7 @@ public class PressurePlate : MonoBehaviour
     {
         yield return new WaitForSeconds(doorDelay);
         doorAnimator.SetBool("Pressed", pressed);
+        AudioController.Instance.PlaySFX("Puerta");
     }
 }
 

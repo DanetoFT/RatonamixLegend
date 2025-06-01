@@ -110,6 +110,7 @@ public class PleassureBotton : MonoBehaviour
     {
         yield return new WaitForSeconds(doorDelay);
         doorAnimator.SetBool("Pressed",true);
+        AudioController.Instance.PlaySFX("Puerta");
         isPermanentlyOpen = true;
     }
 }

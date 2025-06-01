@@ -35,6 +35,7 @@ public class TrampaFuego : MonoBehaviour
         else if (!isFireOn && timer <= 0)
         {
             SetFireState(true);
+            AudioController.Instance.PlaySFX("Fuego");
             timer = fireOnDuration;
         }
     }
@@ -42,7 +43,9 @@ public class TrampaFuego : MonoBehaviour
     {
         isFireOn = state;
         if (fireEffect != null)
+        {
             fireEffect.SetActive(state);
+        }
 
         if (damageCollider != null)
             damageCollider.enabled = state;

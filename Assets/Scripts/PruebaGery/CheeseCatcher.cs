@@ -63,6 +63,8 @@ public class CheeseCatcher : MonoBehaviour
             activeCoroutines.Remove(queso);
             queso.transform.SetParent(null);
 
+            raton.animator.SetBool("Eating", false);
+
             if (initialBodyTypes.TryGetValue(queso, out RigidbodyType2D initialType))
             {
                 Rigidbody2D rb = queso.GetComponent<Rigidbody2D>();
@@ -86,6 +88,7 @@ public class CheeseCatcher : MonoBehaviour
         if (rb != null)
         {
             initialBodyTypes[queso] = rb.bodyType;
+            raton.animator.SetBool("Eating", true);
         }
 
         SpriteRenderer Sr = queso.GetComponent<SpriteRenderer>();
