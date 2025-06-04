@@ -18,6 +18,7 @@ public class LevelTransition : MonoBehaviour
     Ratoncillo ratoncillo;
 
     public GameObject queso;
+    public CambioEscena cambioEscena;
 
     private void Start()
     {
@@ -40,6 +41,9 @@ public class LevelTransition : MonoBehaviour
             else
             {
                 Debug.LogWarning("No hay más niveles definidos.");
+                cambioEscena.Cambio("Final");
+                AudioController.Instance.StopMusic();
+                AudioController.Instance.PlaySFX("Queso");
             }
         }
     }

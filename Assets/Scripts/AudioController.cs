@@ -56,4 +56,9 @@ public class AudioController : MonoBehaviour
             sfxSource.PlayOneShot(s.clip);
         }
     }
+
+    public void StopMusic()
+    {
+        musicSource.Stop();
+    }
 }
