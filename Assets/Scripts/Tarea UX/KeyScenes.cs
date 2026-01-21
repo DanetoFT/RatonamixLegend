@@ -1,8 +1,9 @@
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class LevelTransition : MonoBehaviour
+public class KeyScenes : MonoBehaviour
 {
     public Image blackScreen;
     public Transform raton;
@@ -25,16 +26,15 @@ public class LevelTransition : MonoBehaviour
         ratoncillo = GetComponent<Ratoncillo>();
         nivelActual = 0;
     }
-
-    private void OnTriggerEnter2D(Collider2D other)
+    void Update()
     {
-        if (!enTransicion && other.gameObject.layer == LayerMask.NameToLayer("nextLevel"))
+        if (!enTransicion && Input.GetKeyDown(KeyCode.L))
         {
             ratoncillo.canMove = false;
 
             if (nivelActual < puntosDeNivel.Length)
             {
-                //AudioController.Instance.PlaySFX("Victoria");
+                // AudioController.Instance.PlaySFX("Victoria");
                 StartCoroutine(TransicionCoroutine(nivelActual));
                 nivelActual++;
             }
@@ -46,8 +46,11 @@ public class LevelTransition : MonoBehaviour
                 AudioController.Instance.PlaySFX("Queso");
             }
         }
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
-
     public IEnumerator TransicionCoroutine(int indice)
     {
         enTransicion = true;
@@ -64,12 +67,10 @@ public class LevelTransition : MonoBehaviour
         }
 
         yield return new WaitForSeconds(0.2f);
-
         yield return StartCoroutine(FadeFromBlack());
 
         enTransicion = false;
     }
-
     public IEnumerator FadeToBlack()
     {
         float tiempo = 0f;

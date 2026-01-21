@@ -123,7 +123,7 @@ public class Ratoncillo : MonoBehaviour
         canRotate = false;
         canMove = false;
         animator.SetTrigger("Idle");
-        AudioController.Instance.PlaySFX("Muerte");
+        //AudioController.Instance.PlaySFX("Muerte");
     }
 
     public void Respawn()
